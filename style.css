@@ -5,6 +5,8 @@ body {
 
 @media (max-width:600px) {
 	#content{width: unset;}
+	#content td{padding-left:0,5em; padding-right: 0}
+	#jidelni-listek, #napojovy-listek{padding:0}
 	#facebook{width: unset}}
 
 #logo {width: 100%;}
@@ -18,5 +20,6 @@ body {
 #content ul {padding-left:0; list-style: none}
 #content li:first-of-type {margin-left: -2.5em}
 #content td:first-of-type {text-align: left;}
+#content td:last-of-type{width: 5em !important}
 #content td {padding-left: 1em; padding-right: 1em;}
 #content td b {font-size:110%}

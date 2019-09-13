@@ -3,9 +3,10 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content=eial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 	<title>Restaurace Pilská Hospoda</title>
 </head>
@@ -19,8 +20,415 @@
 		<a href="./menu.html" class="w3-cell w3-button w3-mobile active">Menu</a>
 		<a href="./kontakt.html" class="w3-cell w3-button w3-mobile w3-hover-white">Kontakt</a>
 	</div>
-	<div class="w3-container w3-center w3-mobile" id="content">
-		Stálé menu pro vás v současné chvíli připravujeme.
+	<div class="w3-row w3-center w3-mobile" id="content" style="padding:2vh; width:unset">
+		<div class="w3-half w3-mobile">
+			<h3>Jídelní lístek</h3>
+			<div id="jidelni-listek" class="w3-container w3-row">
+				<table class="w3-left w3-half w3-mobile">
+					<tr>
+						<td colspan="2" style="text-align: center; font-weight: bold">Polévky</td>
+					</tr>
+					<tr>
+						<td>Dle denní nabídky</td>
+						<td>29,- Kč</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center; font-weight: bold">Jídla</td>
+					</tr>
+					<tr>
+						<td>Smažený vepřový řízek</td>
+						<td>85,- Kč</td>
+					</tr>
+					<tr>
+						<td>Vepřová játra na cibulce</td>
+						<td>65,- Kč</td>
+					</tr>
+					<tr>
+						<td>Vepřový steak na žampionech</td>
+						<td>90,- Kč</td>
+					</tr>
+					<tr>
+						<td>Smažený kuřecí řízek</td>
+						<td>85,- Kč</td>
+					</tr>
+					<tr>
+						<td>Kuřecí steak s bylinkovým máslem</td>
+						<td>90,- Kč</td>
+					</tr>
+					<tr>
+						<td>Smažený sýr</td>
+						<td>65,- Kč</td>
+					</tr>
+					<tr>
+						<td>Smažený hermelín</td>
+						<td>65,- Kč</td>
+					</tr>
+					<tr>
+						<td>Smažené rybí prsty</td>
+						<td>55,- Kč</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center; font-weight: bold">Saláty</td>
+					</tr>
+					<tr>
+						<td>Salát s kuřecím masem, toast</td>
+						<td>85,- Kč</td>
+					</tr>
+					<tr>
+						<td>Salát s mozzarellou, toast</td>
+						<td>75,- Kč</td>
+					</tr>
+					<tr>
+						<td>Salát s balkánským sýrem, toast</td>
+						<td>75,- Kč</td>
+					</tr>
+					<tr>
+						<td>Salát s tuňákem, toast</td>
+						<td>80,- Kč</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center; font-weight: bold">Zmrzlinové poháry</td>
+					</tr>
+					<tr>
+						<td>Zmrzlina mix, šlehačka</td>
+						<td>36,- Kč</td>
+					</tr>
+					<tr>
+						<td>Zmrzlina mix, lesní ovoce, šlehačka</td>
+						<td>49,- Kč</td>
+					</tr>
+					<tr>
+						<td>Horké maliny</td>
+						<td>45,- Kč</td>
+					</tr>
+				</table>
+				<table class="w3-right w3-half w3-mobile">
+					<tr>
+						<td colspan="2" style="text-align: center; font-weight: bold">Dezerty</td>
+					</tr>
+					<tr>
+						<td>Palačinka, džem, šlehačka</td>
+						<td>29,- Kč</td>
+					</tr>
+					<tr>
+						<td>Palačinka, džem, šlehačka, lesní ovoce</td>
+						<td>49,- Kč</td>
+					</tr>
+					<tr>
+						<td>Palačinka, džem, šlehačka, zmrzlina</td>
+						<td>39,- Kč</td>
+					</tr>
+					<tr>
+						<td>Dortík dle nabídky</td>
+						<td>35,- Kč</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center; font-weight: bold">Přílohy</td>
+					</tr>
+					<tr>
+						<td>Hranolky</td>
+						<td>25,- Kč</td>
+					</tr>
+					<tr>
+						<td>Krokety</td>
+						<td>30,- Kč</td>
+					</tr>
+					<tr>
+						<td>Americké brambory</td>
+						<td>28,- Kč</td>
+					</tr>
+					<tr>
+						<td>Bramborové lupínky</td>
+						<td>28,- Kč</td>
+					</tr>
+					<tr>
+						<td>Vařené brambory</td>
+						<td>25,- Kč</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Kečup</td>
+						<td>10,- Kč</td>
+					</tr>
+					<tr>
+						<td>Tatarka</td>
+						<td>10,- Kč</td>
+					</tr>
+					<tr>
+						<td>Pečivo (2 ks chleba)</td>
+						<td>10,- Kč</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center; font-weight: bold">K pivu</td>
+					</tr>
+					<tr>
+						<td>Utopenec, pečivo</td>
+						<td>45,- Kč</td>
+					</tr>
+					<tr>
+						<td>Klobása, pečivo</td>
+						<td>50,- Kč</td>
+					</tr>
+					<tr>
+						<td>Tlačenka, pečivo</td>
+						<td>45,- Kč</td>
+					</tr>
+					<tr>
+						<td>Chipsy</td>
+						<td>30,- Kč</td>
+					</tr>
+					<tr>
+						<td>Slané tyčinky</td>
+						<td>30,- Kč</td>
+					</tr>
+					<tr>
+						<td>Slané arašidy</td>
+						<td>30,- Kč</td>
+					</tr>
+				</table>
+			</div>
+			<p class="w3-block w3-center w3-mobile">Menu box 5,- Kč, Kelímek na kávu 5,- Kč</p>
+		</div>
+		<div class="w3-half w3-mobile">
+			<h3>Nápojový lístek</h3>
+			<div id="napojovy-listek" class="w3-container w3-row">
+				<div class="w3-left w3-half w3-mobile">
+					<table class="w3-mobile" style="width: 100%">
+						<tr>
+							<td colspan="2" style="text-align: center; font-weight: bold">Destiláty 0,04 l</td>
+						</tr>
+						<tr>
+							<td>Becherovka</td>
+							<td>32,- Kč </td>
+						</tr>
+						<tr>
+							<td>Becherovka nefiltr.</td>
+							<td>35,- Kč </td>
+						</tr>
+						<tr>
+							<td>Fernet Stock</td>
+							<td>30,- Kč</td>
+						</tr>
+						<tr>
+							<td>Fernet citrus</td>
+							<td>30,- Kč</td>
+						</tr>
+						<tr>
+							<td>Rum Božkov</td>
+							<td>28,- Kč</td>
+						</tr>
+						<tr>
+							<td>Rum Republica</td>
+							<td>45,- Kč</td>
+						</tr>
+						<tr>
+							<td>Jägermeister</td>
+							<td>50,- Kč</td>
+						</tr>
+						<tr>
+							<td>Slivovice</td>
+							<td>35,- Kč</td>
+						</tr>
+						<tr>
+							<td>Tullamore Dew</td>
+							<td>50,- Kč</td>
+						</tr>
+						<tr>
+							<td>Johnnie Walker Red</td>
+							<td>50,- Kč</td>
+						</tr>
+						<tr>
+							<td>Jim Beam</td>
+							<td>50,- Kč</td>
+						</tr>
+						<tr>
+							<td>Jack Daniels</td>
+							<td>60,- Kč</td>
+						</tr>
+						<tr>
+							<td>Beefeater Gin</td>
+							<td>48,- Kč</td>
+						</tr>
+						<tr>
+							<td>Baileys</td>
+							<td>45,- Kč</td>
+						</tr>
+						<tr>
+							<td>Tequila</td>
+							<td>50,- Kč</td>
+						</tr>
+						<tr>
+							<td>Finská vodka</td>
+							<td>32,- Kč</td>
+						</tr>
+						<tr>
+							<td>Metaxa 5*</td>
+							<td>50,- Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align: center; font-weight: bold">Vína</td>
+						</tr>
+						<tr>
+							<td>Lambrusco červ. 0,75 l</td>
+							<td>110,- Kč</td>
+						</tr>
+						<tr>
+							<td>Lambrusco bílé 0,75 l</td>
+							<td>110,- Kč</td>
+						</tr>
+						<tr>
+							<td>Bohemia Sekt 0,75 l</td>
+							<td>190,- Kč</td>
+						</tr>
+						<tr>
+							<td>Červené víno 0,2 l</td>
+							<td>25,- Kč</td>
+						</tr>
+						<tr>
+							<td>Bílé víno 0,2 l</td>
+							<td>25,- Kč</td>
+						</tr>
+					</table>
+					<table class="w3-mobile" style="width: 100%">
+						<tr>
+							<td style="text-align: center; font-weight: bold">Pivo</td>
+							<td style="text-align: center; font-weight: bold">0,5 l</td>
+							<td style="text-align: center; font-weight: bold">0,33 l</td>
+						</tr>
+						<tr>
+							<td>Budvar 10°</td>
+							<td>25,- Kč</td>
+							<td>15,- Kč</td>
+						</tr>
+						<tr>
+							<td>Budvar 11°</td>
+							<td>28,- Kč</td>
+							<td>17,- Kč</td>
+						</tr>
+						<tr>
+							<td>Budvar 12°</td>
+							<td>33,- Kč</td>
+							<td>20,- Kč</td>
+						</tr>
+						<tr>
+							<td>Nealko Budvar</td>
+							<td>25,-Kč</td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+
+				<table class="w3-right w3-half w3-mobile">
+					<tr>
+						<td colspan="2" style="text-align: center; font-weight: bold">Nealko</td>
+					</tr>
+					<tr>
+						<td>Mattoni 0,33 l</td>
+						<td>20,- Kč</td>
+					</tr>
+					<tr>
+						<td>Pepsi 0,25 l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Pepsi bez cukru 0,25 l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Mirinda 0,25 l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>7UP 0,25 l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Tonic 0,25 l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Ginger Ale 0,25 l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Mattoni Margarita</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Džus pomeranč 0,25l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Džus jablko 0,25 l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Džus jahoda 0,25 l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Eis Tea broskev 0,25l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Red Bull</td>
+						<td>50,- Kč </td>
+					</tr>
+					<tr>
+						<td>Točená malinovka 0,5 l</td>
+						<td>25,- Kč </td>
+					</tr>
+					<tr>
+						<td>Točená malinovka 0,3 l</td>
+						<td>15,- Kč </td>
+					</tr>
+					<tr>
+						<td>Kohoutková voda 0,3 l</td>
+						<td>10,- Kč </td>
+					</tr>
+					<tr>
+						<td>Čaj Greenfield</td>
+						<td>28,- Kč </td>
+					</tr>
+					<tr>
+						<td>Grog</td>
+						<td>32,- Kč </td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center; font-weight: bold">Káva</td>
+					</tr>
+					<tr>
+						<td>ESPRESSO</td>
+						<td>26,- Kč</td>
+					</tr>
+					<tr>
+						<td>CAPPUCCINO</td>
+						<td>28,- Kč</td>
+					</tr>
+					<tr>
+						<td>LATTE</td>
+						<td>32,- Kč</td>
+					</tr>
+					<tr>
+						<td>CON PANNA</td>
+						<td>32,- Kč</td>
+					</tr>
+					<tr>
+						<td>Ledová káva</td>
+						<td>39,- Kč</td>
+					</tr>
+					<tr style="height:1em"></tr>
+
+					<tr>
+						<td colspan="2" style="text-align: center">Kelímek na kávu 5,- Kč</td>
+					</tr>
+				</table>
+			</div>
+		</div>
 	</div>
 </body>
+
 </html>
