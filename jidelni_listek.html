@@ -1,229 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content=eial-scale=1.0 ">
-	<meta http-equiv=" X-UA-Compatible " content=" ie=edge ">
-	<link rel=" stylesheet " href=" https://www.w3schools.com/w3css/4/w3.css ">
-	<link rel=" stylesheet " href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
-	<link rel=" stylesheet " href=" style.css ">
-	<title>Restaurace Pilská Hospoda</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content=eial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible"content="ie=edge">
+		<link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet"href="style.css">
+		<title>Restaurace Pilská Hospoda</title>
+	</head>
 
-<body>
-	<div class=" w3-container w3-center " id="logo">
-		<img src="logo.png" class=" w3-mobile " alt=" " height=" 150px ">
-	</div>
-	<div class=" w3-container w3-cell-row w3-center w3-red " id="menu">
-		<a href=" ./index.html " class=" w3-cell w3-button w3-mobile w3-hover-white ">Domů</a>
-		<a href=" ./jidelni_listek.html " class=" w3-cell w3-button w3-mobile active ">Jídelní lístek</a>
-		<a href=" ./napojovy_listek.html " class=" w3-cell w3-button w3-mobile w3-hover-white ">Nápojový lístek</a>
-		<a href=" ./kontakt.html " class=" w3-cell w3-button w3-mobile w3-hover-white ">Kontakt</a>
-	</div>
-	<div class=" w3-row w3-center w3-mobile " id="content" style=" padding:2vh; width: fit-content; ">
-		<div class="w3-mobile ">
-			<h3>Jídelní lístek</h3>
-			<div id=" jidelni-listek " class=" w3-container w3-row ">
-				<table class="w3-left w3-half w3-mobile ">
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Předkrmy</td>
-					</tr>
-					<tr>
-						<td>Utopenec, pečivo</td>
-						<td>55,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Klobása, pečivo</td>
-						<td>60,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Tlačenka, pečivo</td>
-						<td>55,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Polévky</td>
-					</tr>
-					<tr>
-						<td>Dle denní nabídky</td>
-						<td>35,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Vepřové maso</td>
-					</tr>
-					<tr>
-						<td>Smažený vepřový řízek</td>
-						<td>100,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Vepřová játra na cibulce</td>
-						<td>&nbsp;90,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Vepřový steak na žampionech</td>
-						<td>120,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Medailonky z vepřové panenky se zelenými fazolkami a slaninou</td>
-						<td>175,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Kuřecí maso</td>
-					</tr>
-					<tr>
-						<td>Smažený kuřecí řízek</td>
-						<td>100,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Kuřecí steak s bylinkovým máslem</td>
-						<td>120,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Kuřecí steak s rajčetem a sýrem</td>
-						<td>140,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Speciality</td>
-					</tr>
-					<tr>
-						<td>Halušky, zelí, uzené maso</td>
-						<td>115,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Bezmasá jídla</td>
-					</tr>
-					<tr>
-						<td>Smažený květák</td>
-						<td>90,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Smažený sýr</td>
-						<td>90,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Smažený hermelín</td>
-						<td>90,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Ryby</td>
-					</tr>
-					<tr>
-						<td>Smažené rybí file se sýrem</td>
-						<td>90,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Smažené rybí file se špenátem</td>
-						<td>90,-&nbsp;Kč</td>
-					</tr>
-				</table>
-				<table class="w3-right w3-half w3-mobile ">
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Saláty</td>
-					</tr>
-					<tr>
-						<td>Salát s kuřecím masem, toast</td>
-						<td>110,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Salát s mozzarellou, toast</td>
-						<td>90,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Salát s balkánským sýrem, toast</td>
-						<td>90,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Salát s tuňákem, toast</td>
-						<td>100,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Přílohy</td>
-					</tr>
-					<tr>
-						<td>Hranolky</td>
-						<td>30,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Krokety</td>
-						<td>35,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Americké brambory</td>
-						<td>35,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Vařené brambory</td>
-						<td>30,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Kečup</td>
-						<td>10,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Tatarka</td>
-						<td>10,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Pečivo (2 ks chleba)</td>
-						<td>10,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">K pivu</td>
-					</tr>
-					<tr>
-						<td>Chipsy</td>
-						<td>35,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Slané tyčinky</td>
-						<td>35,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Slané arašidy</td>
-						<td>35,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Dezerty</td>
-					</tr>
-					<tr>
-						<td>Belgická wafle, šlehačka, lesní ovoce</td>
-						<td>65,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Belgická wafle, šlehačka, zmrzlina</td>
-						<td>60,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Štrůdl, šlehačka</td>
-						<td>40,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center; font-weight: bold ">Zmrzlinové poháry</td>
-					</tr>
-					<tr>
-						<td>Zmrzlina mix, šlehačka</td>
-						<td>45,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Zmrzlina mix, lesní ovoce, šlehačka</td>
-						<td>65,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Zmrzlina mix, tropické ovoce, šlehačka</td>
-						<td>65,-&nbsp;Kč</td>
-					</tr>
-					<tr>
-						<td>Horké maliny, šlehačka</td>
-						<td>60,-&nbsp;Kč</td>
-					</tr>
-					<tr style=" height:1em "></tr>
-					<tr>
-						<td colspan=" 2 " style=" text-align: center ">Menu box 5,-&nbsp;Kč</td>
-					</tr>
-				</table>
+	<body>
+		<div class="w3-container w3-center"id="logo">
+			<img src="logo.png" class="w3-mobile"alt=""height="150px">
+		</div>
+		<div class="w3-container w3-cell-row w3-center w3-red"id="menu">
+			<a href="./index.html"class="w3-cell w3-button w3-mobile w3-hover-white">Domů</a>
+			<a href="./jidelni_listek.html"class="w3-cell w3-button w3-mobile active">Jídelní
+				lístek</a>
+			<a href="./napojovy_listek.html"class="w3-cell w3-button w3-mobile
+				w3-hover-white">Nápojový lístek</a>
+			<a href="./kontakt.html"class="w3-cell w3-button w3-mobile w3-hover-white">Kontakt</a>
+		</div>
+		<div class="w3-row w3-center w3-mobile"id="content" style="padding:2vh; width:
+			fit-content;">
+			<div class="w3-mobile">
+				<h3>Jídelní lístek</h3>
+				<div id="jidelni-listek"class="w3-container w3-row">
+					<table class="w3-left w3-half w3-mobile">
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Předkrmy</td>
+						</tr>
+						<tr>
+							<td>Utopenec, pečivo</td>
+							<td>55,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Klobása, pečivo</td>
+							<td>60,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Tlačenka, pečivo</td>
+							<td>55,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Polévky</td>
+						</tr>
+						<tr>
+							<td>Dle denní nabídky</td>
+							<td>35,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Vepřové maso</td>
+						</tr>
+						<tr>
+							<td>Smažený vepřový řízek</td>
+							<td>100,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Vepřová játra na cibulce</td>
+							<td>&nbsp;90,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Vepřový steak na žampionech</td>
+							<td>120,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Medailonky z vepřové panenky se zelenými fazolkami a slaninou</td>
+							<td>175,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Kuřecí maso</td>
+						</tr>
+						<tr>
+							<td>Smažený kuřecí řízek</td>
+							<td>100,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Kuřecí steak s bylinkovým máslem</td>
+							<td>120,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Kuřecí steak s rajčetem a sýrem</td>
+							<td>140,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Speciality</td>
+						</tr>
+						<tr>
+							<td>Halušky, zelí, uzené maso</td>
+							<td>115,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Bezmasá
+								jídla</td>
+						</tr>
+						<tr>
+							<td>Smažený květák</td>
+							<td>90,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Smažený sýr</td>
+							<td>90,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Smažený hermelín</td>
+							<td>90,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Ryby</td>
+						</tr>
+						<tr>
+							<td>Smažené rybí file se sýrem</td>
+							<td>90,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Smažené rybí file se špenátem</td>
+							<td>90,-&nbsp;Kč</td>
+						</tr>
+					</table>
+					<table class="w3-right w3-half w3-mobile">
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Saláty</td>
+						</tr>
+						<tr>
+							<td>Salát s kuřecím masem, toast</td>
+							<td>110,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Salát s mozzarellou, toast</td>
+							<td>90,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Salát s balkánským sýrem, toast</td>
+							<td>90,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Salát s tuňákem, toast</td>
+							<td>100,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Přílohy</td>
+						</tr>
+						<tr>
+							<td>Hranolky</td>
+							<td>30,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Krokety</td>
+							<td>35,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Americké brambory</td>
+							<td>35,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Vařené brambory</td>
+							<td>30,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Kečup</td>
+							<td>10,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Tatarka</td>
+							<td>10,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Pečivo (2 ks chleba)</td>
+							<td>10,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">K pivu</td>
+						</tr>
+						<tr>
+							<td>Chipsy</td>
+							<td>35,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Slané tyčinky</td>
+							<td>35,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Slané arašidy</td>
+							<td>35,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Dezerty</td>
+						</tr>
+						<tr>
+							<td>Belgická wafle, šlehačka, lesní ovoce</td>
+							<td>65,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Belgická wafle, šlehačka, zmrzlina</td>
+							<td>60,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Štrůdl, šlehačka</td>
+							<td>40,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td colspan="2"style="text-align: center; font-weight: bold">Zmrzlinové
+								poháry</td>
+						</tr>
+						<tr>
+							<td>Zmrzlina mix, šlehačka</td>
+							<td>45,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Zmrzlina mix, lesní ovoce, šlehačka</td>
+							<td>65,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Zmrzlina mix, tropické ovoce, šlehačka</td>
+							<td>65,-&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Horké maliny, šlehačka</td>
+							<td>60,-&nbsp;Kč</td>
+						</tr>
+						<tr style="height:1em"></tr>
+						<tr>
+							<td colspan="2"style="text-align: center">Menu box 5,-&nbsp;Kč</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 
 </html>
